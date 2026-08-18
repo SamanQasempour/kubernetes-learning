@@ -1,3 +1,5 @@
+<img src="./2.png" width="100%" alt="baner english"/>
+
 # ☸️ Kubernetes Zero to Pro
 
 **🇬🇧 English** | [🇮🇷 فارسی](./README.fa.md)
