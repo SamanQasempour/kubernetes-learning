@@ -1,47 +1,49 @@
 # ☸️ Kubernetes Zero to Pro
 
-[🇬🇧 English](README.md) | **🇮🇷 فارسی**
+**🇬🇧 English** | [🇮🇷 فارسی](./README.fa.md)
 
-**آموزش Kubernetes از صفر تا حرفه‌ای**
+A structured, practical, and project-based course designed to teach **Kubernetes from zero to professional level**.
 
-یک دوره‌ی ساختاریافته، عملی و پروژه‌محور برای یادگیری Kubernetes از مفاهیم پایه تا مباحث پیشرفته و استفاده در پروژه‌های واقعی DevOps.
-
----
-
-## 🎯 هدف دوره
-
-هدف این دوره این است که Kubernetes را **از صفر تا سطح حرفه‌ای** یاد بگیری؛ به شکلی که علاوه بر حفظ کردن دستورات، معماری و نحوه‌ی عملکرد Kubernetes را نیز به‌خوبی درک کنی.
-
-در پایان دوره باید بتوانی:
-
-* معماری Kubernetes را توضیح بدهی.
-* مفاهیم اصلی Kubernetes را درک کنی.
-* Applicationها را روی Kubernetes Deploy و مدیریت کنی.
-* با Pod، Deployment، Service و Workloadها کار کنی.
-* Configuration و Secretها را مدیریت کنی.
-* Networking و Storage را در Kubernetes مدیریت کنی.
-* Resourceها و Scheduling را کنترل کنی.
-* Health Check و Auto Scaling را پیاده‌سازی کنی.
-* مفاهیم امنیتی Kubernetes را درک کنی.
-* مشکلات Kubernetes را Troubleshoot کنی.
-* Kubernetes را در Workflowهای واقعی DevOps استفاده کنی.
-* پروژه‌های واقعی را روی Kubernetes اجرا و مدیریت کنی.
+This repository covers Kubernetes fundamentals, architecture, workloads, networking, storage, security, troubleshooting, and real-world DevOps practices.
 
 ---
 
-## 📚 ساختار دوره
+## 🎯 Course Goal
 
-دوره به چند **Chapter** تقسیم شده و هر درس داخل پوشه‌ی مخصوص خودش قرار دارد.
+The goal of this course is not simply to memorize Kubernetes commands, but to build a **deep understanding of Kubernetes architecture, concepts, and how it works in real infrastructure**.
 
-هر درس دارای نسخه‌ی انگلیسی و فارسی است.
+By completing this course, you will be able to:
 
-```text
+* Understand and explain Kubernetes architecture.
+* Understand the core concepts of Kubernetes.
+* Deploy and manage applications on Kubernetes.
+* Work with Pods, Deployments, ReplicaSets, and Services.
+* Manage application configuration and Secrets.
+* Understand and manage Kubernetes networking.
+* Manage storage and persistent storage.
+* Understand resource management and scheduling.
+* Configure health checks and autoscaling.
+* Understand Kubernetes security concepts.
+* Troubleshoot Kubernetes workloads and infrastructure.
+* Use Kubernetes in real-world DevOps workflows.
+* Manage applications in production environments.
+
+---
+
+## 📚 Course Structure
+
+The course is divided into multiple **Chapters**, and each Chapter contains multiple **Lessons**.
+
+Every Lesson has its own directory with both English and Persian documentation.
+
+```text id="4f6v0k"
 kubernetes-zero-to-pro/
 │
 ├── README.md
 ├── README.fa.md
 │
 ├── Chapter-01/
+│   │
 │   ├── Lesson-01/
 │   │   ├── README.md
 │   │   └── README.fa.md
@@ -60,79 +62,80 @@ kubernetes-zero-to-pro/
 
 ---
 
-## 🗂️ فصل‌های دوره
+## 🗂️ Course Chapters
 
 ### Chapter 01 — Kubernetes Fundamentals
 
-آشنایی با Kubernetes، دلیل استفاده از آن، معماری و Componentهای اصلی.
+Introduction to Kubernetes, its purpose, architecture, core components, and fundamental concepts.
 
 ### Chapter 02 — Kubernetes Workloads
 
-بررسی Pod، ReplicaSet، Deployment، Job، CronJob و مدیریت Workloadها.
+Pods, ReplicaSets, Deployments, Jobs, CronJobs, and workload management.
 
 ### Chapter 03 — Networking
 
-بررسی Service، DNS، Networking، Ingress و ارتباط بین Workloadها.
+Services, DNS, networking concepts, Ingress, and communication between workloads.
 
 ### Chapter 04 — Configuration & Secrets
 
-بررسی ConfigMap، Secret، Environment Variables و مدیریت Configuration.
+ConfigMaps, Secrets, environment variables, and application configuration management.
 
 ### Chapter 05 — Storage
 
-بررسی Volume، PersistentVolume، PersistentVolumeClaim و Storage.
+Volumes, PersistentVolumes, PersistentVolumeClaims, and storage management.
 
 ### Chapter 06 — Scheduling & Resources
 
-بررسی Resource Requests، Limits، Scheduling، Taints، Tolerations و Node Management.
+Resource Requests, Limits, Scheduling, Taints, Tolerations, and Node management.
 
 ### Chapter 07 — Health & Scaling
 
-بررسی Liveness Probe، Readiness Probe، Startup Probe، HPA و Scaling.
+Liveness Probes, Readiness Probes, Startup Probes, Horizontal Pod Autoscaling, and scaling.
 
 ### Chapter 08 — Security
 
-بررسی RBAC، ServiceAccount، Security Context و مفاهیم امنیتی Kubernetes.
+RBAC, ServiceAccounts, Security Contexts, and Kubernetes security fundamentals.
 
 ### Chapter 09 — Troubleshooting
 
-بررسی Logs، Events، Debugging و عیب‌یابی مشکلات Kubernetes.
+Logs, Events, Debugging, and troubleshooting common Kubernetes problems.
 
 ### Chapter 10 — Advanced Kubernetes
 
-بررسی مفاهیم و قابلیت‌های پیشرفته Kubernetes.
+Advanced Kubernetes concepts and features required for professional usage.
 
 ### Chapter 11 — Production & DevOps
 
-بررسی Kubernetes در محیط Production، CI/CD، Monitoring، Observability و عملیات زیرساخت.
+Kubernetes in production environments, CI/CD, monitoring, observability, and infrastructure operations.
 
 ### Chapter 12 — Real-World Projects
 
-پروژه‌های عملی برای ترکیب مفاهیم یادگرفته‌شده در طول دوره.
+Practical projects designed to combine the concepts learned throughout the course and apply them to real-world scenarios.
 
 ---
 
-## 🧪 روش یادگیری
+## 🧪 Learning Method
 
-هر درس با یک ساختار مشخص ارائه می‌شود:
+Each lesson follows a structured learning process:
 
-1. **Concept** — توضیح ساده‌ی مفهوم
-2. **Technical Definition** — تعریف فنی
-3. **Architecture** — بررسی نحوه‌ی عملکرد
-4. **Real-World Example** — مثال واقعی
-5. **Commands** — دستورات موردنیاز
-6. **Hands-on Practice** — تمرین عملی
-7. **Summary** — جمع‌بندی
-8. **Questions** — سؤالات بررسی یادگیری
+1. **Concept** — Simple explanation of the topic.
+2. **Technical Definition** — Official technical definition.
+3. **Architecture** — Understanding how the components work.
+4. **Real-World Example** — Practical infrastructure example.
+5. **Commands** — Relevant Linux and Kubernetes commands.
+6. **Hands-on Practice** — Practical exercise.
+7. **Summary** — Review of the key concepts.
+8. **Questions** — Knowledge-check questions.
 
 ---
 
-## 🛠️ تکنولوژی‌ها و ابزارها
+## 🛠️ Tools & Technologies
 
-در طول دوره با ابزارها و تکنولوژی‌های زیر کار خواهیم کرد:
+Throughout the course, we may work with:
 
 * ☸️ Kubernetes
 * 🐳 Docker
+* 📦 Containerd
 * 🐧 Linux
 * ⌨️ kubectl
 * 📄 YAML
@@ -142,17 +145,16 @@ kubernetes-zero-to-pro/
 * 📈 Grafana
 * 🔄 CI/CD
 * ☁️ Cloud Infrastructure
-* 📦 Containerd
 
 ---
 
-## 📌 پیش‌نیازها
+## 📌 Prerequisites
 
-برای شروع این دوره نیازی به دانش قبلی Kubernetes نداری.
+No previous Kubernetes knowledge is required.
 
-مفاهیم Kubernetes از پایه آموزش داده می‌شوند و به‌صورت مرحله‌به‌مرحله وارد مباحث پیشرفته خواهیم شد.
+The course starts from the fundamentals and gradually progresses toward advanced concepts.
 
-آشنایی اولیه با موارد زیر مفید است:
+Basic familiarity with the following technologies is helpful:
 
 * Linux
 * Command Line
@@ -160,29 +162,30 @@ kubernetes-zero-to-pro/
 * Networking
 * Git
 
-اما مفاهیم موردنیاز در طول دوره نیز توضیح داده خواهند شد.
+Any required concepts will also be explained throughout the course when necessary.
 
 ---
 
-## 🚀 فلسفه دوره
+## 🚀 Course Philosophy
 
-هدف این دوره فقط حفظ کردن دستورات Kubernetes نیست.
+The goal of this course is **not to memorize Kubernetes commands**.
 
-هدف این است که واقعاً بفهمی:
+The goal is to truly understand:
 
-> **Kubernetes چه کاری انجام می‌دهد، چرا این کار را انجام می‌دهد، چگونه کار می‌کند و چگونه باید آن را در یک زیرساخت واقعی مدیریت کرد.**
+> **What Kubernetes does, why it does it, how it works, and how to operate it in real infrastructure.**
 
 ---
 
-## 📖 مستندات
+## 📖 Documentation
 
-این Repository با رویکرد **Documentation First** ساخته شده است.
+This repository follows a **Documentation First** approach.
 
-هر Chapter شامل چند Lesson است و هر Lesson دارای مستندات، مثال‌ها، دستورات و تمرین‌های مربوط به خودش است.
+Each Chapter contains multiple Lessons, and each Lesson includes its own documentation, examples, commands, and practical exercises.
 
-تمام درس‌ها در دو زبان ارائه می‌شوند:
+All lessons are available in two languages:
 
-**🇬🇧 English** و **🇮🇷 فارسی**
+* 🇬🇧 English
+* 🇮🇷 Persian
 
 ---
 
@@ -190,7 +193,7 @@ kubernetes-zero-to-pro/
 
 **Saman Qasempour**
 
-تمرکز اصلی:
+Areas of focus:
 
 * DevOps
 * Linux
@@ -201,18 +204,18 @@ kubernetes-zero-to-pro/
 
 ---
 
-## ⭐ وضعیت پروژه
+## ⭐ Project Status
 
-🚧 **در حال توسعه**
+🚧 **In Development**
 
-درس‌ها، تمرین‌ها و پروژه‌های جدید به‌صورت تدریجی به Repository اضافه خواهند شد.
+New Chapters, Lessons, exercises, and real-world projects will be added progressively.
 
 ---
 
 ## 📜 License
 
-این Repository با هدف آموزش و یادگیری Kubernetes ایجاد شده است.
+This repository is created for educational and learning purposes.
 
 ---
 
-[🇬🇧 English](README.md) | **🇮🇷 فارسی**
+**🇬🇧 English** | [🇮🇷 فارسی](./README.fa.md)
